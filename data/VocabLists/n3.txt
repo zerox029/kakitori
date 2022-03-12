@@ -1,0 +1,610 @@
+ˆ¤, ‚ ‚¢, love
+ˆ¥A, ‚ ‚¢‚³‚Â, greeting,salutation
+ˆ¤î, ‚ ‚¢‚¶‚å‚¤, love,affection
+‡}, ‚ ‚¢‚¸, sign,signal
+ˆ¤‚·‚é, ‚ ‚¢‚·‚é, to love
+‘Šè, ‚ ‚¢‚Ä, companion,partner,company
+–¾‚©‚è, ‚ ‚©‚è, lamplight,light (in general),brightness
+‹ó‚«, ‚ ‚«, room,time to spare,emptiness
+–¾‚ç‚©, ‚ ‚«‚ç‚©, obvious,evident,clear
+’ú‚ß‚é, ‚ ‚«‚ç‚ß‚é, to give up,to abandon
+–O‚«‚é, ‚ ‚«‚é, to get tired of,to lose interest in,to have enough
+ˆ¬è, ‚ ‚­‚µ‚ã, handshake
+ˆ«–‚, ‚ ‚­‚Ü, devil,demon,evil spirit
+–¾‚¯‚é, ‚ ‚¯‚é, to dawn,to become daylight
+—a‚¯‚é, ‚ ‚¸‚¯‚é, to give into custody,to entrust,to deposit
+Š¾, ‚ ‚¹, sweat,perspiration
+—^‚¦‚é, ‚ ‚½‚¦‚é, to give,to present,to award
+’g‚©‚¢, ‚ ‚½‚½‚©(‚¢), warm,mild
+•Ó‚è, ‚ ‚½‚è, vicinity,nearby
+“–‚½‚é, ‚ ‚½‚é, to be hit,to be successful,to be equivalent to
+ˆµ‚¤, ‚ ‚Â‚©‚¤, to handle,to deal with,to treat
+W‚Ü‚è, ‚ ‚Â‚Ü‚è, gathering,meeting,assembly,collection
+“–‚Ä‚é, ‚ ‚Ä‚é, to hit,to apply a patch
+Õ, ‚ ‚Æ, (1) trace,tracks,mark,sign,(2) remains,ruins,(3) scar
+ŒŠ, ‚ ‚È, hole
+—‚Ñ‚é, ‚ ‚Ñ‚é, to bathe,to bask in the sun,to shower
+–û, ‚ ‚Ô‚ç, oil
+—]‚è, ‚ ‚Ü‚è, not very (used as adverb),not much
+Œë‚è, ‚ ‚â‚Ü‚è, error
+‘e, ‚ ‚ç, defect,flaw,blemish,weak point
+—’, ‚ ‚ç‚µ, storm,tempest
+V‚½, ‚ ‚ç‚½, new,fresh,novel
+•\‚·, ‚ ‚ç‚í‚·, to express,to show,to reveal
+Œ»‚·, ‚ ‚ç‚í‚·, to show,to indicate,to display
+Œ»‚ê, ‚ ‚ç‚í‚ê, embodiment,materialization
+Œ»‚ê‚é, ‚ ‚ç‚í‚ê‚é, (1) to appear,to come in sight,to become visible,(2) to express oneself
+—L‚é, ‚ ‚é, to be,to have
+ˆ½, ‚ ‚é, a certain...,some...
+–A, ‚ ‚í, bubble,foam,froth,head on beer
+‡‚í‚¹‚é, ‚ ‚í‚¹‚é, to join together,to be opposite,to face,to unite
+ˆ£‚ê, ‚ ‚í‚ê, helpless,pity,sorrow,grief
+ˆÄ, ‚ ‚ñ, plan,suffix meaning draft
+ˆÃ‹L, ‚ ‚ñ‚«, memorization,learning by heart
+ˆÀ’è, ‚ ‚ñ‚Ä‚¢, stability,equilibrium
+ˆÄ“à, ‚ ‚ñ‚È‚¢, information,guidance,leading
+ˆİ, ‚¢, stomach
+‚¢‚¦, ‚¢‚¦, TODO same as ‚¢‚¢‚¦?
+ˆÏˆõ, ‚¢‚¢‚ñ, committee member
+Œ¾‚¤, ‚ä‚¤, to say
+ˆÓŠO, ‚¢‚ª‚¢, unexpected,surprising
+s‚«, ‚¢‚«, going
+s‚«, ‚ä‚«, going
+‘§, ‚¢‚«, breath,tone
+¨‚¢, ‚¢‚«‚¨‚¢, force,vigor,energy,spirit
+¶‚«•¨, ‚¢‚«‚à‚Ì, living thing,animal
+Šô‚Â, ‚¢‚­‚Â, how many?,how old?
+Šô‚ç, ‚¢‚­‚ç, how much?,how many?
+ˆãt, ‚¢‚µ, doctor,physician
+ˆÓv, ‚¢‚µ, intention,purpose
+ˆÓu, ‚¢‚µ, will,volition
+ˆÛ, ‚¢‚¶, maintenance,preservation
+ˆÓ¯, ‚¢‚µ‚«, consciousness,senses
+ˆÙí, ‚¢‚¶‚å‚¤, strangeness,abnormality,disorder
+ˆÖq, ‚¢‚·, chair
+ò, ‚¢‚¸‚İ, spring,fountain
+ˆÈ‘O, ‚¢‚º‚ñ, ago,since,before,previous
+”Â, ‚¢‚½, board,plank
+ˆÌ‘å, ‚¢‚¾‚¢, greatness
+•ø‚­, ‚¢‚¾‚­, (sl) to embrace,to hug,to harbour,to entertain
+’¸‚­, ‚¢‚½‚¾‚­, to receive,to take food or drink (hum)
+’É‚İ, ‚¢‚½‚İ, pain,ache,sore,grief,distress
+Š‚é, ‚¢‚½‚é, to come,to arrive
+ˆÊ’u, ‚¢‚¿, place,situation,position,location
+ˆê, ‚¢‚¿‚¶, moment,time
+ˆê“x‚É, ‚¢‚¿‚Ç‚É, all at once
+sê, ‚¢‚¿‚Î, (the) market (as a concept)
+ˆê”Ô, ‚¢‚¿‚Î‚ñ, best,first,number one
+ˆê‰Æ, ‚¢‚Á‚©, a house,a home,a family,a household
+ˆêí, ‚¢‚Á‚µ‚ã, a species,a kind,a variety
+ˆêu, ‚¢‚Á‚µ‚ã‚ñ, a moment,an instant
+ˆê¶, ‚¢‚Á‚µ‚å‚¤, whole life,a lifetime,all through life
+ˆê‘w, ‚¢‚Á‚»‚¤, much more,still more,all the more
+ˆê‘Ì, ‚¢‚Á‚½‚¢, (1) one object,one body,(2) what on earth?,really?,(3) generally
+ˆê’v, ‚¢‚Á‚¿, (1) coincidence,agreement,(2) conformity
+ˆê”Ê, ‚¢‚Á‚Ï‚ñ, general,liberal,universal,ordinary,average
+ˆê•û, ‚¢‚Á‚Û‚¤, (1) on the other hand,(2) meanwhile,(3) only,simple,in turn
+‚¢‚Â‚à, ‚¢‚Â‚à, always,usually,every time,never (with neg. verb)
+ˆÚ“®, ‚¢‚Ç‚¤, removal,migration,movement
+]ŒZ’í, ‚¢‚Æ‚±, cousin (male)
+ˆî, ‚¢‚Ë, rice-plant
+‹–°‚è, ‚¢‚Ë‚Ş‚è, dozing,nodding off
+–½, ‚¢‚Ì‚¿, command,decree,life,destiny
+ˆá”½, ‚¢‚Í‚ñ, violation (of law),transgression,infringement,breach
+ˆß•, ‚¢‚Ó‚­, clothes
+‹ŠÔ, ‚¢‚Ü, living room (western style)
+¡‚É, ‚¢‚Ü‚É, before long,even now
+¡‚É‚à, ‚¢‚Ü‚É‚à, at any time,soon
+”Û, ‚¢‚â, no,the noes
+ˆÈ—ˆ, ‚¢‚ç‚¢, since,henceforth
+ˆË—Š, ‚¢‚ç‚¢, (1) request,commission,dispatch,(2) dependence,trust
+ˆã—Ã, ‚¢‚è‚å‚¤, medical care,medical treatment
+Šâ, ‚¢‚í, rock,crag
+j‚¢, ‚¢‚í‚¢, celebration,festival
+j‚¤, ‚¢‚í‚¤, to congratulate,to celebrate
+Œ¾‚í‚Î, ‚¢‚í‚Î, so to speak
+ˆóü, ‚¢‚ñ‚³‚Â, printing
+ˆóÛ, ‚¢‚ñ‚µ‚å‚¤, impression
+ˆø‘Ş, ‚¢‚ñ‚½‚¢, retire
+ˆø—p, ‚¢‚ñ‚æ‚¤, quotation,citation
+ã, ‚¤‚í, upper,outer,surface
+‹›, ‚¤‚¨, fish
+f‚¤, ‚¤‚©‚ª‚¤, (hon) to visit,to ask,to inquire
+ó‚¯æ‚é, ‚¤‚¯‚Æ‚é, to receive,to get,to accept,to take
+“®‚©‚·, ‚¤‚²‚©‚·, to move,to shift
+“e, ‚¤‚³‚¬, rabbit,hare,cony
+‹, ‚¤‚µ, cattle,cow
+¸‚¤, ‚¤‚µ‚È‚¤, to lose,to part with
+Œã, ‚¤‚µ‚ë, afterwards,since then,in the future
+‰R, ‚¤‚», lie,falsehood,incorrect fact,inappropriate
+‹^‚¤, ‚¤‚½‚ª‚¤, to doubt,to distrust,to be suspicious of,to suspect
+“à, ‚¤‚¿, inside
+‰F’ˆ, ‚¤‚¿‚ã‚¤, universe,cosmos,space
+Œ‚‚Â, ‚¤‚Â, to attack,to defeat,to destroy
+ˆÚ‚·, ‚¤‚Â‚·, to remove,to transfer,to infect
+‘i‚¦‚é, ‚¤‚Á‚½‚¦‚é, to sue (a person),to resort to,to appeal to
+’D‚¤, ‚¤‚Î‚¤, to snatch away
+”n, ‚¤‚Ü, (1) horse,(2) promoted bishop (shogi)
+‚¤‚Ü‚¢, ‚¤‚Ü‚¢, delicious
+¶‚Ü‚ê, ‚¤‚Ü‚ê, birth,birth-place
+”~, ‚¤‚ß, plum,plum-tree,lowest (of a three-tier ranking system)
+— Ø‚é, ‚¤‚ç‚¬‚é, to betray,to turn traitor to,to double-cross
+Šğ‚µ‚¢, ‚¤‚ê‚µ‚¢, happy,glad,pleasant
+”„‚ê‚é, ‚¤‚ê‚é, to be sold
+‰\, ‚¤‚í‚³, rumour,report,gossip,common talk
+‚¤‚ñ, iŠ´j, fortune,luck
+‰^, ‚¤‚ñ, fortune,luck
+‰^“], ‚¤‚ñ‚Ä‚ñ, operation,motion,driving
+‰^“®, ‚¤‚ñ‚Ç‚¤, motion,exercise
+•¿, ‚¦, handle,grip
+‰i‰“, ‚¦‚¢‚¦‚ñ, eternity,perpetuity,immortality,permanence
+‰i‹v, ‚¦‚¢‚«‚ã‚¤, eternity,perpetuity,immortality
+‰e‹¿, ‚¦‚¢‚«‚å‚¤, influence,effect
+‰c‹Æ, ‚¦‚¢‚¬‚å‚¤, business,trade,management
+‰q¯, ‚¦‚¢‚¹‚¢, satellite
+‰h—{, ‚¦‚¢‚æ‚¤, nutrition,nourishment
+ÎŠç, ‚¦‚ª‚¨, smiling face
+•`‚­, ‚¦‚ª‚­, to draw,to paint,to sketch,to depict,to describe
+‰a, ‚¦‚³, feed,bait
+“¾‚é, ‚¦‚é, to get,to gain,to win
+“¾‚é, ‚¤‚é, to get,to gain,to win
+‰~, ‚¦‚ñ, circle,money
+‰„Šú, ‚¦‚ñ‚«, postponement,adjournment
+‰‰‹Z, ‚¦‚ñ‚¬, acting,performance
+‰‡•, ‚¦‚ñ‚¶‚å, assistance,aid,support
+‰‰à, ‚¦‚ñ‚º‚Â, speech,address
+‰‰‘t, ‚¦‚ñ‚»‚¤, musical performance
+‰“—¶, ‚¦‚ñ‚è‚å, diffidence,restraint,reserve
+Œä, ‚¨, honourable
+˜V‚¢, ‚¨‚¢, old age,old person,the old,the aged
+’Ç‚¢•t‚­, ‚¨‚¢‚Â‚­, to overtake,to catch up (with)
+‰¤, ‚¨‚¤, king,ruler,sovereign,monarch
+’Ç‚¤, ‚¨‚¤, to chase,to run after
+‰¤—l, ‚¨‚¤‚³‚Ü, king
+‰¤q, ‚¨‚¤‚¶, prince
+‰‚¶‚é, ‚¨‚¤‚¶‚é, to respond,to satisfy,to accept,to comply with,to apply for
+‰¡’f, ‚¨‚¤‚¾‚ñ, crossing
+I‚¦‚é, ‚¨‚¦‚é, to finish
+‘å‚¢‚É, ‚¨‚¨‚¢‚É, very,much,greatly
+•¢‚¤, ‚¨‚¨‚¤, to cover,to hide,to conceal,to wrap,to disguise
+‘å‰Æ, ‚¨‚¨‚â, rich family,distinguished family
+‹u, ‚¨‚©, hill,height,knoll,rising ground
+‰«, ‚¨‚«, open sea
+‰œ, ‚¨‚­, interior,inner part
+‘¡‚é, ‚¨‚­‚é, to send,to give to,to award to,to confer on
+‹N‚±‚é, ‚¨‚±‚é, to occur,to happen
+—c‚¢, ‚¨‚³‚È‚¢, very young,childish
+û‚ß‚é, ‚¨‚³‚ß‚é, to obtain,to reap,to pay,to supply,to accept
+‰˜õ, ‚¨‚¹‚ñ, pollution,contamination
+‹°‚ê‚é, ‚¨‚»‚ê‚é, to fear,to be afraid of
+‹°‚ë‚µ‚¢, ‚¨‚»‚ë‚µ‚¢, terrible,dreadful
+‚¨Œİ‚¢, ‚¨‚½‚ª‚¢, mutual,reciprocal,each other
+‰¸‚â‚©, ‚¨‚¾‚â‚©, calm,gentle,quiet
+’j‚Ìl, ‚¨‚Æ‚±‚Ì‚Ğ‚Æ, man
+—ò‚é, ‚¨‚Æ‚é, to fall behind,to be inferior to
+‚¨• , ‚¨‚È‚©, stomach
+‹S, ‚¨‚É, ogre,demon,it (i.e., in a game of tag)
+‘Ñ, ‚¨‚Ñ, band (e.g. conduction, valence)
+‚¨’‹, ‚¨‚Ğ‚é, lunch,noon
+“M‚ê‚é, ‚¨‚Ú‚ê‚é, to be drowned,to indulge in
+‚¨–Ú‚ÉŠ|‚©‚é, ‚¨‚ß‚É‚©‚©‚é, 
+v‚¢o, ‚¨‚à‚¢‚Å, memories,recollections,reminiscence
+å‚É, ‚¨‚à‚É, mainly,primarily
+v‚í‚¸, ‚¨‚à‚í‚¸, unintentional,spontaneous
+‰j‚¬, ‚¨‚æ‚¬, swimming
+‹y‚Ú‚·, ‚¨‚æ‚Ú‚·, to exert,to cause,to exercise
+‹‚é, ‚¨‚é, to be (animate),to be,to exist
+‰º‚·, ‚¨‚ë‚·, to lower,to let go down
+~‚ë‚·, ‚¨‚ë‚·, to take down,to launch,to drop
+I, ‚¨‚í‚è, the end
+‰¹, ‚¨‚ñ, sound,note
+‰¶, ‚¨‚ñ, favour,obligation,debt of gratitude
+‰·’g, ‚¨‚ñ‚¾‚ñ, warmth
+‰·“x, ‚¨‚ñ‚Ç, temperature
+‰Â, ‚©, passable
+‰Û, ‚©, counter for chapters (of a book)
+‰ï, ‚©‚¢, meeting,assembly,party,association,club
+‰ñ, ‚©‚¢, counter for occurrences
+ŠQ, ‚ª‚¢, injury,harm,evil influence,damage
+‰ïˆõ, ‚©‚¢‚¢‚ñ, member,the membership
+ŠG‰æ, ‚©‚¢‚ª, picture
+ŠCŠO, ‚©‚¢‚ª‚¢, foreign,abroad,overseas
+‰ïŒv, ‚©‚¢‚¯‚¢, account,finance,accountant
+‰ğŒˆ, ‚©‚¢‚¯‚Â, settlement,solution,resolution
+‰ï‡, ‚©‚¢‚²‚¤, meeting,assembly
+ŠOŒğ, ‚ª‚¢‚±‚¤, diplomacy
+ŠJn, ‚©‚¢‚µ, start,commencement,beginning
+‰ğß, ‚©‚¢‚µ‚á‚­, explanation,interpretation
+ŠOo, ‚ª‚¢‚µ‚ã‚Â, outing,going out
+‰ü‘P, ‚©‚¢‚º‚ñ, betterment,improvement
+‰õ“K, ‚©‚¢‚Ä‚«, pleasant,agreeable,comfortable
+‰ñ•œ, ‚©‚¢‚Ó‚­, recovery (from illness),improvement,rehabilitation,restoration
+”‚¤, ‚©‚¤, to keep,to raise,to feed
+‘Ö‚¦‚é, ‚©‚¦‚é, to exchange,to interchange,to substitute,to replace
+Š·‚¦‚é, ‚©‚¦‚é, to exchange,to interchange,to substitute,to replace
+‚è, ‚©‚¨‚è, aroma,fragrance,scent,smell
+‰æ‰Æ, ‚ª‚©, painter,artist
+•ø‚¦‚é, ‚©‚©‚¦‚é, to hold or carry under or in the arms
+‰¿Ši, ‚©‚©‚­, price,value,cost
+‰»Šw, ‚©‚ª‚­, chemistry
+‹P‚­, ‚©‚ª‚â‚­, to shine,to glitter,to sparkle
+ŒW, ‚©‚©‚è, official,duty,person in charge
+Š|‚©‚é, ‚©‚©‚é, to take (e.g. time, money, etc),to hang
+œë‚é, ‚©‚©‚é, to suffer from
+Œ®, ‚©‚¬, key
+ŒÀ‚é, ‚©‚¬‚é, to restrict,to limit,to confine
+•`‚­, ‚©‚­, to draw,to paint,to sketch,to depict,to describe
+‰Æ‹ï, ‚©‚®, furniture
+Šw, ‚ª‚­, learning,scholarship,erudition,knowledge
+Šz, ‚ª‚­, forehead,brow
+ŠoŒå, ‚©‚­‚², resolution,resignation,readiness,preparedness
+ŠmÀ, ‚©‚­‚¶‚Â, certainty,reliability,soundness
+ŠwÒ, ‚ª‚­‚µ‚á, scholar
+ŠwK, ‚ª‚­‚µ‚ã‚¤, study,learning
+‰B‚·, ‚©‚­‚·, to hide,to conceal
+Šg‘å, ‚©‚­‚¾‚¢, magnification,enlargement
+Šm”F, ‚©‚­‚É‚ñ, affirmation,confirmation
+Šw–â, ‚ª‚­‚à‚ñ, scholarship,study,learning
+‰B‚ê‚é, ‚©‚­‚ê‚é, to hide,to be hidden,to conceal oneself,to disappear
+‰e, ‚©‚°, shade,shadow,other side
+‰A, ‚©‚°, shade,shadow,other side
+Œ‡‚¯‚é, ‚©‚¯‚é, to be lacking
+‰ÁŒ¸, ‚©‚°‚ñ, addition and subtraction,allowance for
+‰ß‹, ‚©‚±, the past,bygone days,the previous
+âÄ, ‚©‚², basket,cage
+ˆÍ‚Ş, ‚©‚±‚Ş, to surround,to encircle
+‰ÎĞ, ‚©‚³‚¢, conflagration,fire
+‘İ‚µ, ‚©‚µ, loan,lending
+‰Ùq, ‚©‚µ, pastry
+‰Æ–, ‚©‚¶, housework,domestic chores
+Œ«‚¢, ‚©‚µ‚±‚¢, wise,clever,smart
+‰Ìè, ‚©‚µ‚ã, singer
+”, ‚©‚¸, number,figure
+‰Ò‚®, ‚©‚¹‚®, to earn income,to labor
+”‚¦‚é, ‚©‚¼‚¦‚é, to count
+Œ^, ‚©‚½, mold,model,style,shape,data-type
+Œ¨, ‚©‚½, shoulder
+d‚¢, ‚©‚½‚¢, solid,hard (esp. metal, stone),unpolished writing
+•ûX, ‚©‚½‚ª‚½, persons,this and that,here and there,everywhere
+“, ‚©‚½‚È, sword,saber,knife,engraving tool
+Œê‚é, ‚©‚½‚é, to talk,to tell,to recite
+Ÿ‚¿, ‚©‚¿, win,victory
+‰¿’l, ‚©‚¿, value,worth,merit
+Šˆ‹C, ‚©‚Á‚«, energy,liveliness
+ŠwŠú, ‚ª‚Á‚«, term (school)
+ŠiD, ‚©‚Á‚±‚¤, shape,form,posture,suitability
+Šˆ“®, ‚©‚Â‚Ç‚¤, action,activity
+Šˆ—p, ‚©‚Â‚æ‚¤, conjugation,practical use
+”ß‚µ‚Ş, ‚©‚È‚µ‚Ş, to be sad,to mourn for,to regret
+•K‚¸‚µ‚à, ‚©‚È‚ç‚¸‚µ‚à, (not) always,(not) necessarily,(not) all,(not) entirely
+‹à, ‚©‚Ë, (1) gold,(2) gold general (shogi) (abbr)
+‹à‚¿, ‚©‚Ë‚à‚¿, rich man
+‰Â”\, ‚©‚Ì‚¤, possible,practicable,feasible
+Š”, ‚©‚Ô, share,stock,stump (of tree)
+”í‚é, ‚©‚Ô‚é, to suffer
+\‚¤, ‚©‚Ü‚¤, to mind,to care about,to be concerned about
+‰ä–, ‚ª‚Ü‚ñ, patience,endurance,perseverance
+ã, ‚©‚İ, (1) first volume,(2) superior quality,(3) governmental
+_, ‚©‚İ, god
+—‹, ‚©‚İ‚È‚è, thunder
+”¯‚Ì–Ñ, ‚©‚İ‚Ì‚¯, hair (head)
+‰È–Ú, ‚©‚à‚­, (school) subject,curriculum,course
+‰Î—j, ‚©‚æ‚¤, (abbr) Tuesday
+‹ó, ‚©‚ç, sky
+•¿, ‚ª‚ç, hilt (of a sword),haft (of a dagger),handgrip
+Š ‚é, ‚©‚é, to cut (hair),to mow (grass),to harvest
+”Ş“™, ‚©‚ê‚ç, they (usually male)
+ì, ‚©‚í, river
+‰Í, ‚©‚í, river,stream
+”ç, ‚©‚í, skin,hide,leather,fur,pelt,bark,shell
+Šv, ‚©‚í, leather
+ŠÊ, ‚©‚ñ, can,tin
+Š¨, ‚©‚ñ, perception,intuition,the sixth sense
+l‚¦, ‚©‚ñ‚ª‚¦, thinking,thought,ideas,intention
+Š´Šo, ‚©‚ñ‚©‚­, sense,sensation
+ŠÏ‹q, ‚©‚ñ‚«‚á‚­, audience,spectator(s)
+ŠÂ‹«, ‚©‚ñ‚«‚å‚¤, environment,circumstance
+Š½Œ}, ‚©‚ñ‚°‚¢, welcome,reception
+ŠÏŒõ, ‚©‚ñ‚±‚¤, sightseeing
+ŠÏ@, ‚©‚ñ‚³‚Â, observation,survey
+Š´‚¶, ‚©‚ñ‚¶, feeling,sense,impression
+Š´Ó, ‚©‚ñ‚µ‚á, thanks,gratitude
+Š³Ò, ‚©‚ñ‚¶‚á, a patient
+Š¨’è, ‚©‚ñ‚¶‚å‚¤, calculation,counting,consideration
+Š´î, ‚©‚ñ‚¶‚å‚¤, emotion(s),feeling(s),sentiment
+Š´‚¶‚é, ‚©‚ñ‚¶‚é, to feel,to sense,to experience
+Š´S, ‚©‚ñ‚µ‚ñ, admiration,Well done!
+ŠÖS, ‚©‚ñ‚µ‚ñ, concern,interest
+ŠÖ‚·‚é, ‚©‚ñ‚·‚é, to concern,to be related
+Š®¬, ‚©‚ñ‚¹‚¢, (1) complete,completion,(2) perfection,accomplishment
+Š®‘S, ‚©‚ñ‚º‚ñ, perfection,completeness
+Š´“®, ‚©‚ñ‚Ç‚¤, being deeply moved,excitement,impression,deep emotion
+ŠÄ“Â, ‚©‚ñ‚Æ‚­, supervision,control,superintendence
+ŠÇ—, ‚©‚ñ‚è, control,management (e.g. of a business)
+Š®—¹, ‚©‚ñ‚è‚å‚¤, completion,conclusion
+ŠÖ˜A, ‚©‚ñ‚ê‚ñ, relation,connection,relevance
+‹cˆõ, ‚¬‚¢‚ñ, member of the Diet, congress or parliament
+‹L‰¯, ‚«‚¨‚­, memory,recollection,remembrance
+‹C‰·, ‚«‚¨‚ñ, temperature
+‹@ŠB, ‚«‚©‚¢, machine,mechanism
+‹c‰ï, ‚¬‚©‚¢, Diet,congress,parliament
+ŠúŠÔ, ‚«‚©‚ñ, period,term
+‹@ŠÖ, ‚«‚©‚ñ, organ,mechanism,facility,engine
+Šé‹Æ, ‚«‚¬‚å‚¤, enterprise,undertaking
+Œø‚­, ‚«‚­, to be effective
+‹@Œ™, ‚«‚°‚ñ, humour,temper,mood
+‹CŒó, ‚«‚±‚¤, climate
+Šİ, ‚«‚µ, bank,coast,shore
+¶’n, ‚«‚¶, birthplace
+‹L–, ‚«‚¶, article,news story,report,account
+‹Zt, ‚¬‚µ, engineer,technician
+‹LÒ, ‚«‚µ‚á, reporter
+, ‚«‚¸, wound,injury,hurt,cut
+Šú‘Ò, ‚«‚½‚¢, expectation,anticipation,hope
+‹A‘î, ‚«‚½‚­, returning home
+‹Md, ‚«‚¿‚å‚¤, precious,valuable
+‹c’·, ‚¬‚¿‚å‚¤, chairman
+‹C•t‚­, ‚«‚Ã‚­, to notice,to recognize,to become aware of
+‹C‚É“ü‚é, ‚«‚É‚¢‚é, to be pleased with,to suit
+‹L“ü, ‚«‚É‚ã‚¤, entry,filling in of forms
+‹L”O, ‚«‚Ë‚ñ, commemoration,memory
+‹@”\, ‚«‚Ì‚¤, function,faculty
+‹C‚Ì“Å, ‚«‚Ì‚Ç‚­, pitiful,a pity
+Šñ•t, ‚«‚Ó, contribution,donation
+Šó–], ‚«‚Ú‚¤, hope,wish,aspiration
+Šî–{, ‚«‚Ù‚ñ, foundation,basis,standard
+Œˆ‚Ü‚è, ‚«‚Ü‚è, settlement,conclusion,regulation,rule
+‹C–¡, ‚«‚İ, -like,-looking,-looked
+Šï–­, ‚«‚İ‚å‚¤, strange,queer,curious
+‹`–±, ‚¬‚Ş, duty,obligation,responsibility
+‹^–â, ‚¬‚à‚ñ, question,problem,doubt,guess
+‹t, ‚¬‚á‚­, reverse,opposite
+‹ã, ‚«‚ã‚¤, nine
+‹Œ, ‚«‚ã‚¤, ex-
+‹‰, ‚«‚ã‚¤, class, grade, rank,school class, grade
+‹…, ‚«‚ã‚¤, globe,sphere,ball
+‹x‰É, ‚«‚ã‚¤‚©, holiday,day off,furlough
+‹xŒe, ‚«‚ã‚¤‚¯‚¢, rest,break,recess,intermission
+‹}Œƒ, ‚«‚ã‚¤‚°‚«, sudden,precipitous,radical
+‹zû, ‚«‚ã‚¤‚µ‚ã‚¤, absorption,suction,attraction
+‹~•, ‚«‚ã‚¤‚¶‚å, relief,aid,rescue
+‹}‘¬, ‚«‚ã‚¤‚»‚­, rapid (e.g. progress)
+‹}‚É, ‚«‚ã‚¤‚É, 
+‹‹—¿, ‚«‚ã‚¤‚è‚å‚¤, salary,wages
+Ší—p, ‚«‚æ‚¤, skillful,handy
+‹³‰È‘, ‚«‚å‚¤‚©‚µ‚å, text book
+‹£‹Z, ‚«‚å‚¤‚¬, game,match,contest
+s‹V, ‚¬‚å‚¤‚¬, manners
+‹Ÿ‹‹, ‚«‚å‚¤‚«‚ã‚¤, supply,provision
+‹³t, ‚«‚å‚¤‚µ, teacher (classroom)
+‹³ö, ‚«‚å‚¤‚¶‚ã, teaching,instruction,professor
+‹­’², ‚«‚å‚¤‚¿‚å‚¤, emphasis,stress,stressed point
+‹¤’Ê, ‚«‚å‚¤‚Â‚¤, commonness,community
+‹¤“¯, ‚«‚å‚¤‚Ç‚¤, cooperation,association,collaboration,joint
+‹°•|, ‚«‚å‚¤‚Ó, be afraid,dread,dismay,terror
+‹¦—Í, ‚«‚å‚¤‚è‚å‚­, cooperation,collaboration
+‹­—Í, ‚«‚å‚¤‚è‚å‚­, herculean strength,mountain carrier-guide
+‹–‰Â, ‚«‚å‚©, permission,approval
+‹Ç, ‚«‚å‚­, court lady,lady in waiting
+‹‘å, ‚«‚å‚¾‚¢, huge,gigantic,enormous
+Œ™‚¤, ‚«‚ç‚¤, to hate,to dislike,to loathe
+–¶, ‚«‚è, fog,mist
+Ø‚ê, ‚«‚ê, cloth,piece,cut,chop
+Ø‚ê‚é, ‚«‚ê‚é, (1) to cut well,to be sharp,(2) to break (off)
+‹L˜^, ‚«‚ë‚­, record,minutes,document
+‹c˜_, ‚¬‚ë‚ñ, argument,discussion,dispute
+‹à, ‚«‚ñ, (1) gold,(2) gold general (shogi) (abbr)
+‹â, ‚¬‚ñ, (1) silver,silver coin,silver paint
+‹Ö‰Œ, ‚«‚ñ‚¦‚ñ, No Smoking!
+‹àŠz, ‚«‚ñ‚ª‚­, amount of money
+‹àŒÉ, ‚«‚ñ‚±, safe,vault,treasury,provider of funds
+‹Ö~, ‚«‚ñ‚µ, prohibition,ban
+‹à‘K, ‚«‚ñ‚¹‚ñ, money,cash
+‹à‘®, ‚«‚ñ‚¼‚­, metal
+‹ß‘ã, ‚«‚ñ‚¾‚¢, present day
+‹Ù’£, ‚«‚ñ‚¿‚å‚¤, tension,mental strain,nervousness
+‹Ø“÷, ‚«‚ñ‚É‚­, muscle,sinew
+‹à—Z, ‚«‚ñ‚ä‚¤, monetary circulation,credit situation
+‹à—j, ‚«‚ñ‚æ‚¤, (abbr) Friday
+‹ã, ‚­, nine
+‹å, ‚­, sentence
+H‚¤, ‚­‚¤, (male) (vulg) to eat
+‹ô‘R, ‚®‚¤‚º‚ñ, (by) chance,unexpectedly,suddenly
+L‚¢, ‚­‚³‚¢, odour,scent,smell,stench
+½, ‚­‚³‚è, chain
+•…‚é, ‚­‚³‚é, to rot,to go bad
+•È, ‚­‚¹, a habit (often a bad habit),peculiarity
+ŠÇ, ‚­‚¾, pipe,tube
+‹ï‘Ì, ‚®‚½‚¢, concrete,tangible,material
+‰º‚³‚é, ‚­‚¾‚³‚é, (hon) to give,to confer
+‰º‚è, ‚­‚¾‚è, down-train (going away from Tokyo)
+‹ê’É, ‚­‚Â‚¤, pain,agony
+‹æ•Ê, ‚­‚×‚Â, distinction,differentiation,classification
+‘g, ‚­‚İ, class,group,team,set
+‘g‡, ‚­‚İ‚ ‚¢, association,union
+‘g‚Ş, ‚­‚Ş, to put together
+“Ü, ‚­‚à‚è, cloudiness,cloudy weather,shadow
+ˆÊ, ‚­‚ç‚¢, grade,rank,about
+•é‚ç‚µ, ‚­‚ç‚µ, living,livelihood,subsistence,circumstances
+•é‚ç‚·, ‚­‚ç‚·, to live,to get along
+ŒJ‚è•Ô‚·, ‚­‚è‚©‚¦‚·, to repeat,to do something over again
+‹¶‚¤, ‚­‚é‚¤, to go mad,to get out of order
+‹ê‚µ‚¢, ‚­‚é‚µ‚¢, painful,difficult
+‹ê‚µ‚Ş, ‚­‚é‚µ‚Ş, to suffer,to groan,to be worried
+•é‚ê, ‚­‚ê, year end,sunset,nightfall,end
+‹ê˜J, ‚­‚ë‚¤, troubles,hardships
+‰Á‚¦‚é, ‚­‚í‚¦‚é, to append,to sum up,to add (up)
+Ú‚µ‚¢, ‚­‚í‚µ‚¢, knowing very well,detailed,full,accurate
+‰Á‚í‚é, ‚­‚í‚í‚é, to join in,to accede to,to increase,to gain in (influence)
+ŒP, ‚­‚ñ, native Japanese reading of a Chinese character
+ŒR, ‚®‚ñ, army,force,troops
+ŒR‘à, ‚®‚ñ‚½‚¢, army,troops
+ŒP—û, ‚­‚ñ‚ê‚ñ, practice,training
+‰º, ‚°, under,below,beneath
+Œv, ‚¯‚¢, plan
+ŒhˆÓ, ‚¯‚¢‚¢, respect,honour
+Œo‰c, ‚¯‚¢‚¦‚¢, management,administration
+Œv‰æ, ‚¯‚¢‚©‚­, plan,project,schedule,scheme,program
+Œi‹C, ‚¯‚¢‚«, condition,state,business (condition)
+ŒoŒ±, ‚¯‚¢‚¯‚ñ, experience
+ŒXŒü, ‚¯‚¢‚±‚¤, tendency,trend,inclination
+Œx, ‚¯‚¢‚±‚­, warning,advice
+ŒvZ, ‚¯‚¢‚³‚ñ, calculation,reckoning
+Œf¦, ‚¯‚¢‚¶, notice,bulletin
+ŒY–, ‚¯‚¢‚¶, criminal case,(police) detective
+Œ|p, ‚°‚¢‚¶‚ã‚Â, (fine) art,the arts
+Œ_–ñ, ‚¯‚¢‚â‚­, contract,compact,agreement
+Œo—R, ‚¯‚¢‚ä, go by the way,via
+‰ö‰ä, ‚¯‚ª, injury (to animate object),hurt
+Œ€, ‚°‚«, drama,play
+Œ€ê, ‚°‚«‚¶‚å‚¤, theatre,playhouse
+‰»Ï, ‚¯‚µ‚å‚¤, make-up (cosmetic)
+Œ‹‰Ê, ‚¯‚Á‚©, result,consequence
+Œ‡Š×, ‚¯‚Á‚©‚ñ, defect,fault,deficiency
+Œ‹‹Ç, ‚¯‚Á‚«‚å‚­, after all,eventually
+ŒˆS, ‚¯‚Á‚µ‚ñ, determination,resolution
+Œ‡È, ‚¯‚Á‚¹‚«, absence,non-attendance
+Œˆ’è, ‚¯‚Á‚Ä‚¢, decision,determination
+Œ‡“_, ‚¯‚Á‚Ä‚ñ, faults,defect,weakness
+Œ—j, ‚°‚Â‚æ‚¤, Monday
+Œ‹˜_, ‚¯‚Â‚ë‚ñ, conclusion
+‰Œ, ‚¯‚Ş‚è, smoke,fumes
+Œ”, ‚¯‚ñ, ticket,coupon,bond,certificate
+Œ§, ‚¯‚ñ, prefecture
+Œ¬, ‚¯‚ñ, eaves
+Œ–‰Ü, ‚¯‚ñ‚©, quarrel,(drunken) brawl,failure
+Œ©‰ğ, ‚¯‚ñ‚©‚¢, opinion,point of view
+ŒÀŠE, ‚°‚ñ‚©‚¢, limit,bound
+Œ»‹à, ‚°‚ñ‚«‚ñ, cash,ready money,mercenary,self-interested
+Œ¾Œê, ‚°‚ñ‚², language
+Œ’N, ‚¯‚ñ‚±‚¤, health,sound,wholesome
+ŒŸ¸, ‚¯‚ñ‚³, inspection (e.g. customs, factory),examination
+Œ»İ, ‚°‚ñ‚´‚¢, present,up to now,nowadays,modern times,current
+Œ»À, ‚°‚ñ‚¶‚Â, reality
+Œ»Û, ‚°‚ñ‚µ‚å‚¤, phenomenon
+Œ»ó, ‚°‚ñ‚¶‚å‚¤, present condition,existing state,status quo
+Œšİ, ‚¯‚ñ‚¹‚Â, construction,establishment
+Œ»‘ã, ‚°‚ñ‚¾‚¢, nowadays,modern times,present-day
+Œš’z, ‚¯‚ñ‚¿‚­, construction,architecture
+Œ©“–, ‚¯‚ñ‚Æ‚¤, be found,aim,estimate,guess,approx
+ŒŸ“¢, ‚¯‚ñ‚Æ‚¤, consideration,examination,investigation,study,scrutiny
+Œ»ê, ‚°‚ñ‚Î, actual spot,scene,scene of the crime
+Œ›–@, ‚¯‚ñ‚Û‚¤, constitution
+Œ —˜, ‚¯‚ñ‚è, right,privilege
+Œã, ‚², afterwards,since then,in the future
+Œê, ‚², language,word
+—ö, ‚±‚¢, love,tender passion
+”Z‚¢, ‚±‚¢, thick (as of color, liquid),dense,strong
+—öl, ‚±‚¢‚Ñ‚Æ, lover,sweetheart
+K‰^, ‚±‚¤‚¤‚ñ, good luck,fortune
+u‰‰, ‚±‚¤‚¦‚ñ, lecture,address
+Œø‰Ê, ‚±‚¤‚©, effect,effectiveness,efficacy,result
+d‰İ, ‚±‚¤‚©, coin
+‚‰¿, ‚±‚¤‚©, high price
+‹‰Ø, ‚²‚¤‚©, wonderful,gorgeous,splendor,pomp,extravagance
+‡Ši, ‚²‚¤‚©‚­, success,passing (e.g. exam),eligibility
+ŒğŠ·, ‚±‚¤‚©‚ñ, exchange,interchange,reciprocity
+q‹ó, ‚±‚¤‚­‚¤, aviation,flying
+ŒõŒi, ‚±‚¤‚¯‚¢, scene,spectacle
+‡Œv, ‚²‚¤‚¯‚¢, sum total,total amount
+UŒ‚, ‚±‚¤‚°‚«, attack,strike,offensive,criticism,censure
+vŒ£, ‚±‚¤‚¯‚ñ, contribution,services
+L, ‚±‚¤‚±‚­, advertisement
+ŒğÛ, ‚±‚¤‚³‚¢, company,friendship,association,society,acquaintance
+ŒãÒ, ‚±‚¤‚µ‚á, the latter
+Hê, ‚±‚¤‚Î, factory,plant,mill,workshop
+\¬, ‚±‚¤‚¹‚¢, organization,composition
+‚‘¬, ‚±‚¤‚»‚­, high speed,high gear
+s“®, ‚±‚¤‚Ç‚¤, action,conduct,behaviour,mobilization
+‹­“, ‚²‚¤‚Æ‚¤, robbery,burglary
+K•Ÿ, ‚±‚¤‚Ó‚­, happiness,blessedness
+Œö•½, ‚±‚¤‚Ö‚¢, fairness,impartial,justice
+Œó•â, ‚±‚¤‚Ù, candidacy
+l—¶, ‚±‚¤‚è‚å, consideration,taking into account
+‰z‚¦‚é, ‚±‚¦‚é, to exceed,to cross over,to cross
+•X, ‚±‚¨‚è, ice,hail
+“€‚é, ‚±‚¨‚é, to freeze,to be frozen over,to congeal
+Œë‰ğ, ‚²‚©‚¢, misunderstanding
+ŒêŠw, ‚²‚ª‚­, language study
+ŒÄ‹z, ‚±‚«‚ã‚¤, breath,respiration
+ŒÌ‹½, ‚±‚«‚å‚¤, home town,birthplace,old village,historic village
+‹É, ‚²‚­, quite,very
+‘Œê, ‚±‚­‚², national language
+•”Â, ‚±‚­‚Î‚ñ, blackboard
+•, ‚±‚­‚Ó‚­, subjugation,conquest
+‘–¯, ‚±‚­‚İ‚ñ, national,people,citizen
+’•¨, ‚±‚­‚à‚Â, grain,cereal,corn
+‚±‚±, ‚±‚±, here
+˜, ‚±‚µ, hip
+ŒÌá, ‚±‚µ‚å‚¤, break-down,failure,accident,out of order
+ŒÂl, ‚±‚¶‚ñ, individual,private person,personal,private
+‰z‚·, ‚±‚·, to go over (e.g. with audience)
+‘‰Æ, ‚±‚Á‚©, state,country,nation
+‘‰ï, ‚±‚Á‚©‚¢, National Diet,parliament,congress
+‘‹«, ‚±‚Á‚«‚å‚¤, national or state border
+œÜ, ‚±‚Á‚¹‚Â, bone fracture
+¬•ï, ‚±‚Ã‚Â‚İ, parcel,package
+–, ‚±‚Æ, thing,matter,fact,circumstances
+ˆÙ‚È‚é, ‚±‚Æ‚È‚é, to differ,to vary,to disagree
+Œ¿, ‚±‚Æ‚í‚´, proverb,maxim
+’f‚é, ‚±‚Æ‚í‚é, to refuse,to decline,to dismiss
+•², ‚±‚È, flour,meal,powder
+‚±‚Ì, ‚±‚Ì, this
+D‚İ, ‚±‚Ì‚İ, liking,taste,choice
+D‚Ş, ‚±‚Ì‚Ş, to like,to prefer
+o, ‚²‚İ, dust,dirt
+¬”, ‚±‚Ş‚¬, wheat
+¬‰®, ‚±‚â, hut,cabin,shed,(animal) pen
+ , ‚±‚ë, time,about,toward,approximately (time)
+E‚·, ‚±‚ë‚·, to kill
+“]‚Ô, ‚±‚ë‚Ô, to fall down,to fall over
+¡‰ñ, ‚±‚ñ‚©‚¢, now,this time,lately
+¡Œã, ‚±‚ñ‚², from now on,hereafter
+¬G, ‚±‚ñ‚´‚Â, confusion,congestion
+¢“ï, ‚±‚ñ‚È‚ñ, difficulty,distress
+¡“ú, ‚±‚ñ‚É‚¿, today,this day
+¥–ñ, ‚±‚ñ‚â‚­, engagement,betrothal
+¬—, ‚±‚ñ‚ç‚ñ, disorder,chaos,confusion,mayhem
+·, ‚³, difference,variation
+Û, ‚³‚¢, on the occasion of,circumstances
+Å‚, ‚³‚¢‚±‚¤, highest,supreme,the most
+àY, ‚´‚¢‚³‚ñ, property,fortune,assets
+ÅI, ‚³‚¢‚µ‚ã‚¤, last,final,closing
+Å’†, ‚³‚¢‚¿‚ã‚¤, in the middle of
+Å’á, ‚³‚¢‚Ä‚¢, least,lowest,worst
+Ë”\, ‚³‚¢‚Ì‚¤, talent,ability
+Ù”», ‚³‚¢‚Î‚ñ, trial,judgement
+Ş—¿, ‚´‚¢‚è‚å‚¤, ingredients,material
+K‚¢, ‚³‚¢‚í‚¢, happiness,blessedness
+‹«, ‚³‚©‚¢, border,boundary,mental state
+‹t‚ç‚¤, ‚³‚©‚ç‚¤, to go against,to oppose,to disobey,to defy
+·‚è, ‚³‚©‚è, helping,serving
+ì‹Æ, ‚³‚¬‚å‚¤, work,operation,manufacturing,fatigue duty
+ğ, ‚³‚­, last (year),yesterday
+ì•i, ‚³‚­‚Ğ‚ñ, work,opus,performance,production
+ì•¨, ‚³‚­‚à‚Â, produce (e.g. agricultural),crops
+÷, ‚³‚­‚ç, cherry blossom,cherry tree
+ğ, ‚³‚¯, alcohol,sake
+‹©‚Ô, ‚³‚¯‚Ô, to shout,to cry
+”ğ‚¯‚é, ‚³‚¯‚é, (1) to avoid (physical contact ),(2) to ward off,to avert
+x‚¦‚é, ‚³‚³‚¦‚é, to be blocked,to choke,to be obstructed
+w‚·, ‚³‚·, to point,to put up umbrella,to play
+ÀÈ, ‚´‚¹‚«, seat
+—U‚¤, ‚³‚»‚¤, (1) to invite,to ask,(2) to tempt,to lure,to induce
+D, ‚³‚Â, (1) token,label,(2) ticket,(3) charm
+ì‰Æ, ‚³‚Á‚©, author,writer,novelist,artist
+ì‹È, ‚³‚Á‚«‚å‚­, composition,setting (of music)
+»”™, ‚³‚Î‚­, desert
+·•Ê, ‚³‚×‚Â, discrimination,distinction,differentiation
+ì–@, ‚³‚Ù‚¤, manners,etiquette,propriety
+—lX, ‚³‚Ü‚´‚Ü, varied,various
+Šo‚Ü‚·, ‚³‚Ü‚·, to awaken
+Šo‚ß‚é, ‚³‚ß‚é, to wake,to wake up
+¶‰E, ‚³‚ä‚¤, (1) left and right,(2) influence,control,domination
+M, ‚³‚ç, plate,dish
+X‚É, ‚³‚ç‚É, furthermore,again,after all,more and more,moreover
+‹‚é, ‚³‚é, to leave,to go away
+‰, ‚³‚é, monkey
+‘›‚¬, ‚³‚í‚¬, uproar,disturbance
+Q‰Á, ‚³‚ñ‚©, participation
+Ql, ‚³‚ñ‚±‚¤, reference,consultation
