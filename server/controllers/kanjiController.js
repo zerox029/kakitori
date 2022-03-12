@@ -1,5 +1,7 @@
 const Kanji = require("../models/kanji");
 
+///TODO: Add error handling
+
 exports.getAllKanji = async (req, res) => {
   const kanji = await Kanji.find();
 
