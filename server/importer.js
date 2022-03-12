@@ -2,7 +2,7 @@ require("dotenv").config({ path: "./config.env" });
 
 const fs = require("fs");
 const data = JSON.parse(fs.readFileSync('../data/dict.json'));
-const dbo = require("../db/conn");
+const dbo = require("./db/conn");
 
 const pushKanjiData = () => {
   const dbConnect = dbo.getDb();
@@ -11,7 +11,7 @@ const pushKanjiData = () => {
   const formatedData = [];
   for(const [key, value] of Object.entries(kanjiData)) {
     for(let i = 0; i < value.length; i++) {
-      const kanjiLevelObject = { kanji: value[i], level: key };
+      const kanjiLevelObject = { kanji: value[i], level: parseInt(key) };
       formatedData.push(kanjiLevelObject);
     }
   }
@@ -30,7 +30,7 @@ const pushVocabData = () => {
   const formatedData = [];
   for(const [key, value] of Object.entries(vocabData)) {
     for(let i = 0; i < value.length; i++) {
-      const vocabObject = { word: value[i][0], reading: value[i][1], translation: value[i][2], level: key }
+      const vocabObject = { word: value[i][0], reading: value[i][1], translation: value[i][2], level: parseInt(key) }
       formatedData.push(vocabObject)
     }
   }
