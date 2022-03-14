@@ -1,0 +1,18 @@
+.studyCard {
+  margin: 1px;
+  padding: 0 0 20px 0;
+  width: 512px;
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buttonArea {
+  display: flex;
+  justify-content: center;
+}
+
+.cardBtn {
+  margin: 0 10px !important;
+}

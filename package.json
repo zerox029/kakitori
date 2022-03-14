@@ -18,5 +18,8 @@
     "bugs": {
         "url": "https://github.com/mongodb-developer/mongodb-express-rest-api-example/issues"
     },
-    "homepage": "https://github.com/mongodb-developer/mongodb-express-rest-api-example#readme"
+    "homepage": "https://github.com/mongodb-developer/mongodb-express-rest-api-example#readme",
+    "dependencies": {
+        "react-router-dom": "^6.2.2"
+    }
 }
