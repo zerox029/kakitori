@@ -11,7 +11,6 @@ module.exports = {
   connectToServer: (callback) => {
     client.connect((err, db) => {
       if (err || !db) {
-        console.log(process.env)
         return callback(err);
       }
 

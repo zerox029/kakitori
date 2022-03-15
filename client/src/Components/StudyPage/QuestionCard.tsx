@@ -5,7 +5,7 @@ import styles from './Card.module.css';
 interface Props {
   reading: string;
   translation: string;
-  clickHandler: (state: boolean) => void;
+  clickHandler: () => void;
 }
 
 const QuestionCard = ({reading, translation, clickHandler}: Props): JSX.Element => {
@@ -15,7 +15,7 @@ const QuestionCard = ({reading, translation, clickHandler}: Props): JSX.Element 
         <ruby style={{ rubyPosition: "under" }}>{reading}<rt>{translation}</rt></ruby>
       </Typography>
       <div className={styles.buttonArea}>
-        <Button sx={{ width: "30%", margin: "0 10px" }} variant="contained" onClick={() => clickHandler(true)}>Reveal Answer</Button>
+        <Button sx={{ width: "30%", margin: "0 10px" }} variant="contained" onClick={() => clickHandler()}>Reveal Answer</Button>
       </div>
     </Paper>
   )

@@ -30,7 +30,7 @@ const pushVocabData = () => {
   const formatedData = [];
   for(const [key, value] of Object.entries(vocabData)) {
     for(let i = 0; i < value.length; i++) {
-      const vocabObject = { word: value[i][0], reading: value[i][1], translation: value[i][2], level: parseInt(key) }
+      const vocabObject = { word: value[i][0].trim(), reading: value[i][1].trim(), translation: value[i][2].trim(), level: parseInt(key) }
       formatedData.push(vocabObject)
     }
   }

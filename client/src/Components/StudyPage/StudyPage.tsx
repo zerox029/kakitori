@@ -34,16 +34,24 @@ const StudyPage: React.FC = () => {
   }
 
   const setNewWord = () => {
-    console.log(wordList)
     const word = wordList[Math.floor(Math.random() * wordList.length)];
     setCurrentWord(word);
+  }
+
+  const showAnswer = () => {
+    setHasAnswered(true);
+  }
+
+  const setAnswer = (answerStatus: boolean) => {
+    setNewWord();
+    setHasAnswered(false);
   }
 
   return (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       {hasAnswered ? 
-        <AnswerCard word={currentWord?.word ?? ""} reading={currentWord?.reading ?? ""} clickHandler={setHasAnswered} /> :
-        <QuestionCard reading={currentWord?.reading ?? ""} translation={currentWord?.translation ?? ""} clickHandler={setHasAnswered} />
+        <AnswerCard word={currentWord?.word ?? ""} reading={currentWord?.reading ?? ""} clickHandler={setAnswer} /> :
+        <QuestionCard reading={currentWord?.reading ?? ""} translation={currentWord?.translation ?? ""} clickHandler={showAnswer} />
       }  
     </Box>
   )
