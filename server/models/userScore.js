@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const UserScoreSchema = new Schema(
   {
     userId: {type: mongoose.ObjectId, required: true},
-    wordId: {type: mongoose.ObjectId, required: true},
+    kanjiId: {type: mongoose.ObjectId, required: true},
     correctCount: {type: Number, required: true, default: 0},
     incorrectCount: {type: Number, required: true, default: 0}
   }

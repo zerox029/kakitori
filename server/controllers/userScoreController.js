@@ -5,7 +5,7 @@ const UserScore = require("../models/userScore");
 
 exports.getAllUserScores = async (req, res) => {
     const userScores = await UserScore.find({});
-    
+
     res.send(userScores);
 }
 
@@ -23,5 +23,13 @@ exports.updateUserScoreForKanji = async (req, res) => {
 }
 
 exports.addUserScoreForKanji = async (req, res) => {
-    console.log(req.body);
+    const userScore = new UserScore({ 
+        userId: req.params.userId,
+        kanjiId: req.params.kanjiId,
+        correctCount: req.body.correctCount || 0,
+        incorrectCount: req.body.incorrectCount || 0
+    })
+    userScore.save();
+
+    res.send("Inserted in the database");
 }
