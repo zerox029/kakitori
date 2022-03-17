@@ -42,7 +42,17 @@ const StudyPage: React.FC = () => {
     setHasAnswered(true);
   }
 
-  const setAnswer = (answerStatus: boolean) => {
+  const setAnswer = async (answerStatus: boolean) => {
+    const postParams = {
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ answerStatus })
+    }
+
+    const res = await fetch(`/user/score/:userId/:wordId`);
+
     setNewWord();
     setHasAnswered(false);
   }
