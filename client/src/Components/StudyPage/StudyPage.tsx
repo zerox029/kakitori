@@ -43,15 +43,21 @@ const StudyPage: React.FC = () => {
   }
 
   const setAnswer = async (answerStatus: boolean) => {
-    const postParams = {
+    const body = { 
+      "correctCount": Number(answerStatus === true), 
+      "incorrectCount": Number(answerStatus === false) 
+    }
+
+    const requestParams = {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ answerStatus })
+      body: JSON.stringify(body)
     }
 
-    const res = await fetch(`/user/score/:userId/:wordId`);
+    ///todo: get id for kanji, not word
+    const res = await fetch(`http://localhost:5000/user/score/622ff62cf8ab618a182ca1cf/${currentWord?._id}`, requestParams);
 
     setNewWord();
     setHasAnswered(false);
