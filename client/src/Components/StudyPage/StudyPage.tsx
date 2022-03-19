@@ -3,6 +3,7 @@ import { Box } from "@mui/material";
 
 import QuestionCard from "./QuestionCard";
 import AnswerCard from "./AnswerCard";
+import { QuestionAnswerSharp } from "@mui/icons-material";
 
 interface IWord {
   _id: string;
@@ -26,7 +27,7 @@ const StudyPage: React.FC = () => {
   }, [wordList]);
 
   const getWordList = async () => {
-    const url = `http://localhost:5000/vocab/level/5`;
+    const url: string = `http://localhost:5000/vocab/level/5`;
     const res = await fetch(url);
     const data = await res.json();
 
@@ -43,6 +44,19 @@ const StudyPage: React.FC = () => {
   }
 
   const setAnswer = async (answerStatus: boolean) => {
+    [...currentWord?.word!].forEach(c => { 
+      const regex = /(?!\p{Punctuation})[\p{Script_Extensions=Han}]/u;
+      if(regex.test(c))
+       postAnswerStatus(answerStatus, c)
+    });
+    
+    setNewWord();
+    setHasAnswered(false);
+  }
+
+  const postAnswerStatus = async (answerStatus: boolean, character: string) => {
+    const url = `http://localhost:5000/user/score/622ff62cf8ab618a182ca1cf/${currentWord?._id}`;
+    
     const body = { 
       "correctCount": Number(answerStatus === true), 
       "incorrectCount": Number(answerStatus === false) 
@@ -56,11 +70,8 @@ const StudyPage: React.FC = () => {
       body: JSON.stringify(body)
     }
 
-    ///todo: get id for kanji, not word
-    const res = await fetch(`http://localhost:5000/user/score/622ff62cf8ab618a182ca1cf/${currentWord?._id}`, requestParams);
 
-    setNewWord();
-    setHasAnswered(false);
+    fetch(url, requestParams);
   }
 
   return (
