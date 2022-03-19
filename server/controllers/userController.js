@@ -13,3 +13,13 @@ exports.getUser = async (req, res) => {
 
     res.send(user);
 }
+
+exports.addNewUser = async (req, res) => {
+    const user = new UserScore({ 
+        username: req.body.username,
+    })
+
+    user.save();
+    
+    res.send("Inserted in the database");
+}

@@ -9,27 +9,46 @@ exports.getAllUserScores = async (req, res) => {
     res.send(userScores);
 }
 
-exports.getUserScoreForKanji = async (req, res) => {
-    const score = await UserScore.find({
+exports.getUserScore = async (req, res) => {
+    const score = await UserScore.findOne({
         userId: new ObjectId(req.params.userId), 
-        kanjiId: new ObjectId(req.params.wordId) 
+        kanjiId: new ObjectId(req.params.kanjiId) 
     });
 
     res.send(score);
 }
 
-exports.updateUserScoreForKanji = async (req, res) => {
-    res.send("NOT IMPLEMENTED");
+exports.updateUserScore = async (req, res) => {
+    const score = await UserScore.findOne({
+        userId: new ObjectId(req.params.userId), 
+        kanjiId: new ObjectId(req.params.kanjiId) 
+    });
+
+    score.correctCount += req.body.correctCount || 0;
+    score.incorrectCount += req.body.incorrectCount || 0;
+
+    score.save();
+
+    res.send("Updated the database");
 }
 
-exports.addUserScoreForKanji = async (req, res) => {
-    const userScore = new UserScore({ 
+exports.addUserScore = async (req, res) => {
+    const score = new UserScore({ 
         userId: req.params.userId,
         kanjiId: req.params.kanjiId,
         correctCount: req.body.correctCount || 0,
         incorrectCount: req.body.incorrectCount || 0
     })
-    userScore.save();
+    score.save();
 
     res.send("Inserted in the database");
+}
+
+exports.deleteUserScore = async (req, res) => {
+    await UserScore.deleteOne({
+        userId: new ObjectId(req.params.userId), 
+        kanjiId: new ObjectId(req.params.kanjiId) 
+    });
+
+    res.send("Deleted the score");
 }

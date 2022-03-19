@@ -2,7 +2,7 @@ require("dotenv").config({ path: "./config.env" });
 
 const fs = require("fs");
 const data = JSON.parse(fs.readFileSync('../data/dict.json'));
-const dbo = require("./db/conn");
+const dbo = require("../db/conn");
 
 const pushKanjiData = () => {
   const dbConnect = dbo.getDb();
