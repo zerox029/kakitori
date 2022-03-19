@@ -55,7 +55,8 @@ const StudyPage: React.FC = () => {
   }
 
   const postAnswerStatus = async (answerStatus: boolean, character: string) => {
-    const url = `http://localhost:5000/user/score/622ff62cf8ab618a182ca1cf/${currentWord?._id}`;
+    const kanjiId = await getIdForKanji(character);
+    const url = `http://localhost:5000/user/score/622ff62cf8ab618a182ca1cf/${kanjiId}`;
     
     const body = { 
       "correctCount": Number(answerStatus === true), 
@@ -72,6 +73,14 @@ const StudyPage: React.FC = () => {
 
 
     fetch(url, requestParams);
+  }
+
+  const getIdForKanji = async (kanji: string) => {
+    const url = `http://localhost:5000/kanji/${kanji}`;
+    const res = await fetch(url);
+    const data = await res.json();
+
+    return data._id;
   }
 
   return (

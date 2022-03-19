@@ -11,4 +11,6 @@ const UserScoreSchema = new Schema(
   }
 )
 
+UserScoreSchema.virtual("correctRatio").get(() => { return this.correctCount / this.incorrectCount })
+
 module.exports = mongoose.model('UserScore', UserScoreSchema, "userScore");

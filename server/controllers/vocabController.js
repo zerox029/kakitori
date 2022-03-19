@@ -7,7 +7,7 @@ exports.getAllVocab = async (req, res, next) => {
 }
 
 exports.getSingleVocab = async (req, res, next) => {
-  const vocab = await Vocab.find({ word: req.params.word });
+  const vocab = await Vocab.findOne({ word: req.params.word });
 
   res.send(vocab);
 }

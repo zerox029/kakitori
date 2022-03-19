@@ -13,7 +13,7 @@ exports.getKanjiByLevel = async (req, res, next) => {
 }
 
 exports.getSingleKanji = async (req, res, next) => {
-  const kanji = await Kanji.find({ kanji: req.params.kanji });
+  const kanji = await Kanji.findOne({ kanji: req.params.kanji });
 
   res.send(kanji);
 }
