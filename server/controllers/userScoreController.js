@@ -1,15 +1,13 @@
 const ObjectId = require("mongoose").Types.ObjectId;
 const UserScore = require("../models/userScore");
 
-///TODO: Add error handling
-
-exports.getAllUserScores = async (req, res) => {
+exports.getAllUserScores = async (req, res, next) => {
     const userScores = await UserScore.find({});
 
     res.send(userScores);
 }
 
-exports.getUserScore = async (req, res) => {
+exports.getUserScore = async (req, res, next) => {
     const score = await UserScore.findOne({
         userId: new ObjectId(req.params.userId), 
         kanjiId: new ObjectId(req.params.kanjiId) 
@@ -18,7 +16,7 @@ exports.getUserScore = async (req, res) => {
     res.send(score);
 }
 
-exports.updateUserScore = async (req, res) => {
+exports.updateUserScore = async (req, res, next) => {
     const score = await UserScore.findOne({
         userId: new ObjectId(req.params.userId), 
         kanjiId: new ObjectId(req.params.kanjiId) 
@@ -32,7 +30,7 @@ exports.updateUserScore = async (req, res) => {
     res.send("Updated the database");
 }
 
-exports.addUserScore = async (req, res) => {
+exports.addUserScore = async (req, res, next) => {
     const score = new UserScore({ 
         userId: req.params.userId,
         kanjiId: req.params.kanjiId,
@@ -44,7 +42,7 @@ exports.addUserScore = async (req, res) => {
     res.send("Inserted in the database");
 }
 
-exports.deleteUserScore = async (req, res) => {
+exports.deleteUserScore = async (req, res, next) => {
     await UserScore.deleteOne({
         userId: new ObjectId(req.params.userId), 
         kanjiId: new ObjectId(req.params.kanjiId) 
