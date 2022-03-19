@@ -17,15 +17,16 @@ exports.getUserScore = async (req, res, next) => {
 }
 
 exports.updateUserScore = async (req, res, next) => {
-    const score = await UserScore.findOne({
+    const filter = {
         userId: new ObjectId(req.params.userId), 
         kanjiId: new ObjectId(req.params.kanjiId) 
-    });
-
-    score.correctCount += req.body.correctCount || 0;
-    score.incorrectCount += req.body.incorrectCount || 0;
-
-    score.save();
+    };
+    const increment = {
+        correctCount: req.body.correctCount || 0,
+        incorrectCount: req.body.incorrectCount || 0
+    }
+    
+    await UserScore.findOneAndUpdate(filter, { $inc: increment }, { upsert: true });
 
     res.send("Updated the database");
 }

@@ -49,7 +49,7 @@ const StudyPage: React.FC = () => {
       if(regex.test(c))
        postAnswerStatus(answerStatus, c)
     });
-    
+
     setNewWord();
     setHasAnswered(false);
   }
@@ -63,7 +63,7 @@ const StudyPage: React.FC = () => {
     }
 
     const requestParams = {
-      method: "POST",
+      method: "PUT",
       headers: {
         'Content-Type': 'application/json'
       },
