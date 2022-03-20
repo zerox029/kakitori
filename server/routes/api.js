@@ -9,6 +9,7 @@ const userScoreController = require("../controllers/userScoreController");
 //Kanji routes
 router.get('/kanji', kanjiController.getAllKanji);
 router.get('/kanji/:kanji', kanjiController.getSingleKanji);
+router.get('/kanji/id/:id', kanjiController.getSingleKanjiById);
 router.get('/kanji/level/:level', kanjiController.getKanjiByLevel);
 
 //Vocab routes

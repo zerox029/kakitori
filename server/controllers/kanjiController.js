@@ -17,3 +17,9 @@ exports.getSingleKanji = async (req, res, next) => {
 
   res.send(kanji);
 }
+
+exports.getSingleKanjiById = async (req, res, next) => {
+  const kanji = await Kanji.findById(req.params.id);
+
+  res.send(kanji);
+}
