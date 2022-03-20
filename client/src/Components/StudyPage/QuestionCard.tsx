@@ -1,5 +1,6 @@
-import { Button, Paper, Typography } from "@mui/material";
+import { useEffect } from "react";
 
+import { Button, Paper, Typography } from "@mui/material";
 import styles from './Card.module.css';
 
 interface Props {
@@ -9,6 +10,15 @@ interface Props {
 }
 
 const QuestionCard = ({reading, translation, clickHandler}: Props): JSX.Element => {
+  useEffect(() => {
+    document.addEventListener("keydown", keyDownHandler);
+  }, [])
+
+  const keyDownHandler = (e: KeyboardEvent) => {
+    if((!e.repeat) && (e.code === "Space" || e.code === "Enter"  || e.code === "NumpadEnter"))
+      clickHandler()
+  }
+
   return (
     <Paper className={styles.studyCard} elevation={3}>
       <Typography variant="h3" sx={{margin: "auto"}}>

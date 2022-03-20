@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { IScore, IKanji } from "../Interfaces";
+import { isConstTypeReference } from "typescript";
+import { IScore } from "../Interfaces";
 
 import ScoreCard from "./ScoreCard";
 
@@ -19,9 +20,15 @@ const StatsPage: React.FC = () => {
     const res = await fetch(url);
     const data = await res.json();
 
+    orderScores(data);
+
     setUserScores(data);
 
     return data;
+  }
+
+  const orderScores = async (scores: Array<IScore>) => {
+    scores.sort((a: IScore, b: IScore) => (a.correctCount / (a.correctCount + a.incorrectCount)) > ((b.correctCount / (b.correctCount + b.incorrectCount))) ? -1 : 1)
   }
 
   return (
