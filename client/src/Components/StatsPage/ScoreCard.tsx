@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Box, Card, CardActions, CardContent, Button, Typography, LinearProgress } from '@mui/material';
+import { useEffect, useState } from 'react';
+import { Box, Card, CardContent, Typography, LinearProgress } from '@mui/material';
 import { IScore, IKanji } from "./../Interfaces";
 
 interface IProps {
@@ -15,13 +15,16 @@ const bull = (
   </Box>
 );
 
-export default function BasicCard({score}: IProps) {
+const ScoreCard = ({score}: IProps): JSX.Element => {
   const [kanjiData, setKanjiData] = useState<IKanji | null>();
 
   useEffect(() => {
     getKanjiData();
   }, []);
 
+  /**
+   * Retrieves kanji data from the database from the given ID.
+   */
   const getKanjiData = async () => {
     const url = `http://localhost:5000/kanji/id/${score.kanjiId}`;
     const res = await fetch(url);
@@ -30,6 +33,11 @@ export default function BasicCard({score}: IProps) {
     setKanjiData(data);
   }
 
+  /**
+   * Rescale the level field from the database response (1 to 12) to the official kanken scale (1 to 10).
+   * @param level The database level field
+   * @returns The kanken level
+   */
   const getActualKankenLevel = (level: number): string | number => {
     if(level >= 5) return level - 2;
     else if(level === 4) return "準2";
@@ -38,6 +46,11 @@ export default function BasicCard({score}: IProps) {
     else return 1;
   }
 
+  /**
+   * Gets the "Seen X times" text. Used for pluralization.
+   * @param count The amount of times the kanji was seen
+   * @returns The full text
+   */
   const getSeenText = (count: number): string => {
     return `Seen ${count} ${count === 1 ? "Time" : "Times"}`
   }
@@ -59,3 +72,5 @@ export default function BasicCard({score}: IProps) {
     </Card>
   );
 }
+
+export default ScoreCard;

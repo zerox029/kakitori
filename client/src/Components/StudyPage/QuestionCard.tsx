@@ -9,11 +9,15 @@ interface Props {
   clickHandler: () => void;
 }
 
-const QuestionCard = ({reading, translation, clickHandler}: Props): JSX.Element => {
+const QuestionCard = ({ reading, translation, clickHandler }: Props): JSX.Element => {
   useEffect(() => {
     document.addEventListener("keydown", keyDownHandler);
   }, [])
 
+  /**
+   * Used to flip the card then the user presses space or enter
+   * @param e The event object
+   */
   const keyDownHandler = (e: KeyboardEvent) => {
     if((!e.repeat) && (e.code === "Space" || e.code === "Enter"  || e.code === "NumpadEnter"))
       clickHandler()

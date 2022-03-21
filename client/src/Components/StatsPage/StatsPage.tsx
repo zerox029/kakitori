@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { isConstTypeReference } from "typescript";
-import { IScore } from "../Interfaces";
-
 import ScoreCard from "./ScoreCard";
 
-const StatsPage: React.FC = () => {
+import { IScore } from "../Interfaces";
+
+const StatsPage = (): JSX.Element => {
   const [userScores, setUserScores] = useState<Array<IScore>>([]);
 
   useEffect(() => {
@@ -15,6 +14,9 @@ const StatsPage: React.FC = () => {
     console.log(userScores)
   }, [userScores])
 
+  /**
+   * Gets every user scores for the current logged in user from the database
+   */
   const getAllUserScores = async () => {
     const url = "http://localhost:5000/user/score/all";
     const res = await fetch(url);
@@ -23,8 +25,6 @@ const StatsPage: React.FC = () => {
     orderScores(data);
 
     setUserScores(data);
-
-    return data;
   }
 
   const orderScores = async (scores: Array<IScore>) => {

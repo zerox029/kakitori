@@ -14,6 +14,10 @@ const AnswerCard = ({word, reading, clickHandler}: Props): JSX.Element => {
     document.addEventListener("keydown", keyDownHandler);
   }, [])
 
+  /**
+   * Used to answer the card when the user presses 1 or 2
+   * @param e The even object
+   */
   const keyDownHandler = (e: KeyboardEvent) => {
     if(!e.repeat)
       if(e.code === "Digit1" || e.code === "Numpad1")

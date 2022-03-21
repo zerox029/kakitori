@@ -3,15 +3,8 @@ import { Box } from "@mui/material";
 
 import QuestionCard from "./QuestionCard";
 import AnswerCard from "./AnswerCard";
-import { QuestionAnswerSharp } from "@mui/icons-material";
 
-interface IWord {
-  _id: string;
-  word: string;
-  reading: string;
-  translation: string;
-  level: number;
-}
+import { IWord } from "../Interfaces";
 
 const StudyPage: React.FC = () => {
   const [hasAnswered, setHasAnswered] = useState<boolean>(false);
@@ -23,9 +16,12 @@ const StudyPage: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    setNewWord();
+    setNewCurrentWord();
   }, [wordList]);
 
+  /**
+   * Gets the list of words to study from the database
+   */
   const getWordList = async () => {
     const url: string = `http://localhost:5000/vocab/level/5`;
     const res = await fetch(url);
@@ -34,15 +30,19 @@ const StudyPage: React.FC = () => {
     setWordList(data);
   }
 
-  const setNewWord = () => {
+  /**
+   * Gets a random word from the word list and assigns it to currentWord
+   */
+  const setNewCurrentWord = () => {
     const word = wordList[Math.floor(Math.random() * wordList.length)];
+
     setCurrentWord(word);
   }
 
-  const showAnswer = () => {
-    setHasAnswered(true);
-  }
-
+  /**
+   * Updates the database and sets the new current word when the user answers a card
+   * @param {boolean} answerStatus Whether the answer was correct or not
+   */
   const setAnswer = async (answerStatus: boolean) => {
     [...currentWord?.word!].forEach(c => { 
       const regex = /(?!\p{Punctuation})[\p{Script_Extensions=Han}]/u;
@@ -50,10 +50,15 @@ const StudyPage: React.FC = () => {
        postAnswerStatus(answerStatus, c)
     });
 
-    setNewWord();
+    setNewCurrentWord();
     setHasAnswered(false);
   }
 
+  /**
+   * Updates the database userScore table with the new answer data
+   * @param {boolean} answerStatus Whether the answer was right or wrong
+   * @param {string} character Which character the question was for
+   */
   const postAnswerStatus = async (answerStatus: boolean, character: string) => {
     const kanjiId = await getIdForKanji(character);
     const url = `http://localhost:5000/user/score/622ff62cf8ab618a182ca1cf/${kanjiId}`;
@@ -75,6 +80,11 @@ const StudyPage: React.FC = () => {
     fetch(url, requestParams);
   }
 
+  /**
+   * Gets the ID for a specified kanji from the database
+   * @param {string} kanji The kanji we need the id for
+   * @returns The id
+   */
   const getIdForKanji = async (kanji: string) => {
     const url = `http://localhost:5000/kanji/${kanji}`;
     const res = await fetch(url);
@@ -87,7 +97,7 @@ const StudyPage: React.FC = () => {
     <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       {hasAnswered ? 
         <AnswerCard word={currentWord?.word ?? ""} reading={currentWord?.reading ?? ""} clickHandler={setAnswer} /> :
-        <QuestionCard reading={currentWord?.reading ?? ""} translation={currentWord?.translation ?? ""} clickHandler={showAnswer} />
+        <QuestionCard reading={currentWord?.reading ?? ""} translation={currentWord?.translation ?? ""} clickHandler={() => { setHasAnswered(true) }} />
       }  
     </Box>
   )

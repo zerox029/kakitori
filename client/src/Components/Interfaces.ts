@@ -13,3 +13,11 @@ export interface IKanji {
   kanji: string
   level: number
 }
+
+export interface IWord {
+  _id: string;
+  word: string;
+  reading: string;
+  translation: string;
+  level: number;
+}
