@@ -36,7 +36,7 @@ const NavBar = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{height: "9vh"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* Start of left hand side for large screens */}
