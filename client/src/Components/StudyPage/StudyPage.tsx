@@ -4,15 +4,20 @@ import { Box } from "@mui/material";
 import QuestionCard from "./QuestionCard";
 import AnswerCard from "./AnswerCard";
 
-import { IWord } from "../Interfaces";
+import { IWord, IKanji } from "../Interfaces";
 
 const StudyPage: React.FC = () => {
   const [hasAnswered, setHasAnswered] = useState<boolean>(false);
   const [wordList, setWordList] = useState<Array<IWord>>([]);
+  const [kanjiList, setKanjiList] = useState<Array<IKanji>>([]);
   const [currentWord, setCurrentWord] = useState<IWord>();
+
+  const jlptLevel = 1;
+  const kankenLevel = 10;
 
   useEffect(() => {
     getWordList();
+    getKanjiList();
   }, []);
 
   useEffect(() => {
@@ -23,7 +28,7 @@ const StudyPage: React.FC = () => {
    * Gets the list of words to study from the database
    */
   const getWordList = async () => {
-    const url: string = `http://localhost:5000/vocab/level/5`;
+    const url: string = `http://localhost:5000/vocab/level/${jlptLevel}`;
     const res = await fetch(url);
     const data = await res.json();
 
@@ -31,12 +36,40 @@ const StudyPage: React.FC = () => {
   }
 
   /**
+   * Gets the list of kanji available to study
+   */
+  const getKanjiList = async () => {
+    const url: string = `http://localhost:5000/kanji/level/cumulative/${kankenLevel}`;
+    const res = await fetch(url);
+    const data = await res.json();
+
+    setKanjiList(data);
+  }
+
+  /**
    * Gets a random word from the word list and assigns it to currentWord
    */
   const setNewCurrentWord = () => {
-    const word = wordList[Math.floor(Math.random() * wordList.length)];
+    if(wordList.length === 0) return;
+
+    let word;
+    let isValidWord = false;
+    do {
+      word = wordList[Math.floor(Math.random() * wordList.length)];
+      isValidWord = checkIfWordHasOnlyValidKanji(word.word);
+    } while(!isValidWord)
 
     setCurrentWord(word);
+  }
+
+  const checkIfWordHasOnlyValidKanji = (word: string) => {
+    for(let i = 0; i < word.length; i++) {
+      if (kanjiList.filter(e => e.kanji === word[i]).length === 0) {
+        return false;
+      }
+    }
+
+    return true;
   }
 
   /**

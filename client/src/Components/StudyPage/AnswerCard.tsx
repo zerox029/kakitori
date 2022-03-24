@@ -19,11 +19,12 @@ const AnswerCard = ({word, reading, clickHandler}: Props): JSX.Element => {
    * @param e The even object
    */
   const keyDownHandler = (e: KeyboardEvent) => {
-    if(!e.repeat)
+    if(!e.repeat) {
       if(e.code === "Digit1" || e.code === "Numpad1")
-        clickHandler(true);
-      else if(e.code === "Digit2" || e.code === "Numpad2")
         clickHandler(false);
+      else if(e.code === "Digit2" || e.code === "Numpad2")
+        clickHandler(true);
+    }
   }
 
   return (
@@ -32,8 +33,8 @@ const AnswerCard = ({word, reading, clickHandler}: Props): JSX.Element => {
         <ruby style={{ rubyPosition: "over" }}>{word}<rt>{reading}</rt></ruby>
       </Typography>
       <div className={styles.buttonArea}>
-        <Button sx={{ width: "20%" }} className={styles.cardBtn} variant="contained" color="success" onClick={() => clickHandler(true)}>Correct</Button>
         <Button sx={{ width: "20%" }} className={styles.cardBtn} variant="contained" color="error" onClick={() => clickHandler(false)}>Wrong</Button>
+        <Button sx={{ width: "20%" }} className={styles.cardBtn} variant="contained" color="success" onClick={() => clickHandler(true)}>Correct</Button>
       </div>
     </Paper>
   )

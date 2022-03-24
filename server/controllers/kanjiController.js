@@ -12,6 +12,13 @@ exports.getKanjiByLevel = async (req, res, next) => {
   res.send(kanji);
 }
 
+exports.getKanjiByLevelCumulative = async (req, res, next) => {
+  const kanji = await Kanji.find({ level: { $gte: req.params.level } });
+
+  res.send(kanji);
+}
+
+
 exports.getSingleKanji = async (req, res, next) => {
   const kanji = await Kanji.findOne({ kanji: req.params.kanji });
 
