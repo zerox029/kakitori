@@ -2,6 +2,7 @@ require("dotenv").config({ path: "./config.env" });
 
 const fs = require("fs");
 const data = JSON.parse(fs.readFileSync('../data/dict.json'));
+const sentenceBank = JSON.parse(fs.readFileSync('../data/sentenceBank.json'));
 const dbo = require("../db/conn");
 
 const pushKanjiData = () => {
@@ -42,12 +43,32 @@ const pushVocabData = () => {
   })
 }
 
+const pushSentencesData = () => {
+  const dbConnect = dbo.getDb();
+  const sentencesData = sentenceBank["sentences"];
+
+  const formatedData = [];
+  for(const [key, value] of Object.entries(sentencesData)) {
+    const sentenceObject = { sentence: value }
+    formatedData.push(sentenceObject)
+  }
+
+  console.log(formatedData);
+
+  dbConnect.collection("sentences").insertMany(formatedData, (err, res) => {
+    if(err) throw err;
+
+    console.log(`Inserted ${res.insertedCount} documents`);
+  })
+}
+
 dbo.connectToServer((err) => {
   if (err) {
     console.error(err);
     process.exit();
   }
 
-  pushKanjiData();
-  pushVocabData();
+  //pushKanjiData();
+  //pushVocabData();
+  pushSentencesData();
 });
