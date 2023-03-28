@@ -3,6 +3,7 @@ const router = express.Router();
 
 const kanjiController = require("../controllers/kanjiController");
 const vocabController = require("../controllers/vocabController");
+const sentenceController = require("../controllers/sentenceController");
 const userController = require("../controllers/userController");
 const userScoreController = require("../controllers/userScoreController");
 
@@ -17,6 +18,10 @@ router.get('/kanji/level/cumulative/:level', kanjiController.getKanjiByLevelCumu
 router.get('/vocab', vocabController.getAllVocab);
 router.get('/vocab/:word', vocabController.getSingleVocab);
 router.get('/vocab/level/:level', vocabController.getVocabByLevel);
+
+//Sentence routes
+router.get('/sentences', sentenceController.getAllSentences);
+router.get('/sentences/:id', sentenceController.getSentenceById);
 
 //User routes
 router.get('/user', userController.getAllUsers);
