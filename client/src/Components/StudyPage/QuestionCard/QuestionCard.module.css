@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'ZenKurenaido';
+  src: url('../../../fonts/ZenKurenaido-Regular.ttf') format('truetype')
+}
+
+.questionCard {
+  margin: 1px;
+  padding: 0 0 20px 0;
+  width: 512px;
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.questionCard h4 {
+  font-family: 'ZenKurenaido';
+}
+
+.questionWord {
+  color: rgb(216, 0, 0);
+}

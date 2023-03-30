@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+button, p {
+  font-family: 'Noto Sans JP' !important;
+}

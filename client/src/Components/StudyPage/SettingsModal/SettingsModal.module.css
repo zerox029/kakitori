@@ -1,0 +1,34 @@
+.modalWindow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: white;
+  box-shadow: 24;
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.modalColumn {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+}
+
+.modalColumn h3 {
+  margin-bottom: 40px;
+}
+
+.modalColumn div {
+  display: flex;
+  justify-content: center;
+}
+
+.modalColumn button {
+  width: 7rem;
+  margin: 0 7px 0 7px;
+}

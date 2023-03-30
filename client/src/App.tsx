@@ -6,6 +6,9 @@ import StatsPage from "./Components/StatsPage/StatsPage"
 import './App.css';
 import NavBar from "./Components/NavBar/NavBar";
 
+import "@fontsource/zen-kurenaido";
+import "@fontsource/noto-sans-jp";
+
 function App() {
   return (
     <div className="App">
