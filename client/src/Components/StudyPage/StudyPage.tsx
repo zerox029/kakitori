@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { Box } from "@mui/material";
+import React, { useState } from "react";
 
 import QuestionCard from "./QuestionCard/QuestionCard";
 import BottomDrawer from "./BottomDrawer/BottomDrawer";
@@ -14,11 +13,27 @@ const StudyPage: React.FC = () => {
 
   const [isAnswerRevealed, setIsAnswerRevealed] = useState<boolean>(false);
 
+  const [vocabLevel, setVocabLevel] = useState(() => ['N5']);
+  const [kanjiLevel, setKanjiLevel] = useState(() => ['10k']);
+
   return (
     <div className={styles.studyPage}>
-      <SettingsModal isOpen={isSettingsModalOpen} handleClose={handleCloseSettingsModal} />
-      <QuestionCard isFlipped={isAnswerRevealed} questionWord={"明日"} questionWordReading={"アシタ"} sentence={"$$question$$帰ったら電話します。"} />
-      <BottomDrawer handleOpenModal={handleOpenSettingsModal} revealAnswer={setIsAnswerRevealed} isAnswerRevealed={isAnswerRevealed} />
+      <SettingsModal 
+        isOpen={isSettingsModalOpen} 
+        handleClose={handleCloseSettingsModal} 
+        vocabLevel={vocabLevel} 
+        kanjiLevel={kanjiLevel} 
+        setVocabLevel={setVocabLevel} 
+        setKanjiLevel={setKanjiLevel} />
+      <QuestionCard 
+        isFlipped={isAnswerRevealed} 
+        questionWord={"明日"} 
+        questionWordReading={"アシタ"} 
+        sentence={"$$question$$帰ったら電話します。"} />
+      <BottomDrawer 
+        handleOpenModal={handleOpenSettingsModal} 
+        revealAnswer={setIsAnswerRevealed} 
+        isAnswerRevealed={isAnswerRevealed} />
     </div>
   )
 }

@@ -11,13 +11,10 @@ const userScoreController = require("../controllers/userScoreController");
 router.get('/kanji', kanjiController.getAllKanji);
 router.get('/kanji/:kanji', kanjiController.getSingleKanji);
 router.get('/kanji/id/:id', kanjiController.getSingleKanjiById);
-router.get('/kanji/level/:level', kanjiController.getKanjiByLevel);
-router.get('/kanji/level/cumulative/:level', kanjiController.getKanjiByLevelCumulative);
 
 //Vocab routes
 router.get('/vocab', vocabController.getAllVocab);
 router.get('/vocab/:word', vocabController.getSingleVocab);
-router.get('/vocab/level/:level', vocabController.getVocabByLevel);
 
 //Sentence routes
 router.get('/sentences', sentenceController.getAllSentences);

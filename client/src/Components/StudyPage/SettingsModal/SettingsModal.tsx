@@ -1,17 +1,19 @@
 import { Box, Container, Modal, Typography, Grid, ToggleButtonGroup, ToggleButton } from "@mui/material";
-import { useState } from 'react';
+import { Dispatch, SetStateAction } from 'react';
 
 import styles from "./SettingsModal.module.css";
 
 interface Props {
   isOpen: boolean,
-  handleClose: () => void
+  handleClose: () => void,
+
+  vocabLevel: string[],
+  setVocabLevel: Dispatch<SetStateAction<string[]>>,
+  kanjiLevel: string[],
+  setKanjiLevel: Dispatch<SetStateAction<string[]>>
 }
 
-const SettingsModal = ({isOpen, handleClose}: Props): JSX.Element => {
-  const [vocabLevel, setVocabLevel] = useState(() => ['N5']);
-  const [kanjiLevel, setKanjiLevel] = useState(() => ['10k']);
-
+const SettingsModal = ({isOpen, handleClose, vocabLevel, kanjiLevel, setVocabLevel, setKanjiLevel}: Props): JSX.Element => {
   const handleVocabLevelChange = (
     event: React.MouseEvent<HTMLElement>,
     newVocabLevel: string[],
