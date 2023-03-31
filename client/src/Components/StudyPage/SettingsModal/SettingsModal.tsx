@@ -43,7 +43,7 @@ const SettingsModal = ({isOpen, handleClose, vocabLevel, kanjiLevel, setVocabLev
     >
       <Box className={styles.modalWindow}>
         <Grid container>
-          <Grid xs={6} className={styles.modalColumn}>
+          <Grid item xs={6} className={styles.modalColumn}>
             <Typography variant="h3">語彙レベル</Typography>
             <ToggleButtonGroup
               color="primary"
@@ -52,14 +52,14 @@ const SettingsModal = ({isOpen, handleClose, vocabLevel, kanjiLevel, setVocabLev
               aria-label="Platform"
               orientation="vertical"
             >
-              <ToggleButton value="N5">JLPT N5</ToggleButton>
-              <ToggleButton value="N4">JLPT N4</ToggleButton>
-              <ToggleButton value="N3">JLPT N4</ToggleButton>
-              <ToggleButton value="N2">JLPT N2</ToggleButton>
-              <ToggleButton value="N1">JLPT N1</ToggleButton>
+              <ToggleButton value="5">JLPT N5</ToggleButton>
+              <ToggleButton value="4">JLPT N4</ToggleButton>
+              <ToggleButton value="3">JLPT N4</ToggleButton>
+              <ToggleButton value="2">JLPT N2</ToggleButton>
+              <ToggleButton value="1">JLPT N1</ToggleButton>
             </ToggleButtonGroup>
           </Grid>
-          <Grid xs={6} className={styles.modalColumn}>
+          <Grid item xs={6} className={styles.modalColumn}>
             <Typography variant="h3">漢字レベル</Typography>
             <Container>
               <ToggleButtonGroup
@@ -69,12 +69,12 @@ const SettingsModal = ({isOpen, handleClose, vocabLevel, kanjiLevel, setVocabLev
                 aria-label="Platform"
                 orientation="vertical"
               >
-                <ToggleButton value="10k">漢検10級</ToggleButton>
-                <ToggleButton value="9k">漢検9級</ToggleButton>
-                <ToggleButton value="8k">漢検8級</ToggleButton>
-                <ToggleButton value="7k">漢検7級</ToggleButton>
-                <ToggleButton value="6k">漢検6級</ToggleButton>
-                <ToggleButton value="5k">漢検5級</ToggleButton>
+                <ToggleButton value="12">漢検10級</ToggleButton>
+                <ToggleButton value="11">漢検9級</ToggleButton>
+                <ToggleButton value="10">漢検8級</ToggleButton>
+                <ToggleButton value="9">漢検7級</ToggleButton>
+                <ToggleButton value="8">漢検6級</ToggleButton>
+                <ToggleButton value="7">漢検5級</ToggleButton>
               </ToggleButtonGroup>
               
               <ToggleButtonGroup
@@ -84,12 +84,12 @@ const SettingsModal = ({isOpen, handleClose, vocabLevel, kanjiLevel, setVocabLev
                 aria-label="Platform"
                 orientation="vertical"
               >
-              <ToggleButton value="4k">漢検4級</ToggleButton>
-                <ToggleButton value="3k">漢検3級</ToggleButton>
-                <ToggleButton value="j2k">漢検准２級</ToggleButton>
-                <ToggleButton value="2k">漢検2級</ToggleButton>
-                <ToggleButton value="j1k">漢検准1級</ToggleButton>
-                <ToggleButton value="1k">漢検1級</ToggleButton>
+              <ToggleButton value="6">漢検4級</ToggleButton>
+                <ToggleButton value="5">漢検3級</ToggleButton>
+                <ToggleButton value="4">漢検准２級</ToggleButton>
+                <ToggleButton value="3">漢検2級</ToggleButton>
+                <ToggleButton value="2">漢検准1級</ToggleButton>
+                <ToggleButton value="1">漢検1級</ToggleButton>
               </ToggleButtonGroup>
             </Container>
           </Grid>

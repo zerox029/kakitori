@@ -7,16 +7,36 @@ const Sentences = require("../models/sentence");
  */
 exports.getAllSentences = async (req, res, next) => {
   let sentences = [];
-  if(query.word)
+
+  if(req.query.word)
   {
-    sentence = await Sentences.find({ "sentence": { "$regex": req.query.word } });
+    const sentenceObjects = await Sentences.find({ "sentence": { "$regex": req.query.word  } });
+
+    sentences = sentenceObjects.map(sentence => sentence["sentence"]);
   }
   else
   {
     sentences = await Sentences.find();
   }
 
-  res.send(sentence);
+  res.send(sentences);
+}
+
+exports.getSingleSentence = async (req, res, next) => {
+  let sentences = [];
+
+  if(req.query.word)
+  {
+    const sentenceObjects = await Sentences.aggregate([{ "$match": { "sentence": { "$regex": req.query.word  } } }, { "$sample": { size: 1 }}]);
+
+    sentences = sentenceObjects.map(sentence => sentence["sentence"].replace(req.query.word, "$$$question$$$"));
+  }
+  else
+  {
+    sentences = await Sentences.find();
+  }
+
+  res.send(sentences);
 }
 
 /**

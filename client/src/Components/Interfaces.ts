@@ -21,3 +21,9 @@ export interface IWord {
   translation: string;
   level: number;
 }
+
+export interface IQuestion {
+  kanji: IKanji;
+  word: IWord;
+  sentence: string;
+}

@@ -17,6 +17,7 @@ router.get('/vocab', vocabController.getAllVocab);
 router.get('/vocab/:word', vocabController.getSingleVocab);
 
 //Sentence routes
+router.get('/sentence', sentenceController.getSingleSentence);
 router.get('/sentences', sentenceController.getAllSentences);
 router.get('/sentences/:id', sentenceController.getSentenceById);
 

@@ -28,6 +28,8 @@
         "@fontsource/noto-sans-jp": "^4.5.12",
         "@fontsource/zen-kurenaido": "^4.5.16",
         "concurrently": "^7.0.0",
-        "react-router-dom": "^6.2.2"
+        "hepburn": "^1.2.0",
+        "react-router-dom": "^6.2.2",
+        "wanakana": "^5.1.0"
     }
 }
