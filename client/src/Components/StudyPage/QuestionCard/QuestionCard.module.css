@@ -16,6 +16,7 @@
 
 .questionCard h4 {
   font-family: 'ZenKurenaido';
+  white-space: nowrap;
 }
 
 .questionWord {

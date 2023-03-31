@@ -18,13 +18,14 @@
   width: 8rem;
 }
 
-.answerButtons {
+.answerButtonsPaper {
   height: 100%;
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
+  background-color: #bfd3ff !important;
 }
 
-.answerButtons button {
+.answerButtonsPaper button {
   height: 4rem;
   margin-top: -1rem;
 }

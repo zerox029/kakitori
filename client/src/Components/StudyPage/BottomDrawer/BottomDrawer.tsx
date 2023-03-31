@@ -23,7 +23,7 @@ const BottomDrawer = ({handleOpenModal, revealAnswer, isAnswerRevealed}: Props):
         <Button variant="contained" className={styles.settingsButton} onClick={handleOpenModal}>設定</Button>
       </Grid>
       <Grid item xs={8} sx={{alignSelf: 'flex-end', height: '5rem'}}>
-        <Paper className={styles.answerButtons}>
+        <Paper className={styles.answerButtonsPaper}>
           {
             isAnswerRevealed ? 
               <Container>

@@ -45,6 +45,13 @@ const StudyPage: React.FC = () => {
     }
   }, [kanjiList])
 
+  useEffect(() => {
+    if(isAnswerRevealed)
+    {
+      selectQuestion();
+    }
+  }, [isAnswerRevealed])
+
   const retrieveKanjiList = async () => {
     const url: string = `http://localhost:5000/kanji?levels=${encodeURIComponent(kanjiLevel.toString())}`;
     const res = await fetch(url);
