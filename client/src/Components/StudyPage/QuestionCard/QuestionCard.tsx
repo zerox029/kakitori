@@ -11,6 +11,7 @@ interface Props {
 
 const QuestionCard = ({ isFlipped, question }: Props): JSX.Element => {
   const mergeSentenceAndWord = (word: string, sentence: string) => {
+    console.log(sentence)
     let sentenceFragments: string[] = sentence.split("$$")
     
     let domTextFragments: JSX.Element[] = [];

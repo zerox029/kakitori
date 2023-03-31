@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 import QuestionCard from "./QuestionCard/QuestionCard";
 import BottomDrawer from "./BottomDrawer/BottomDrawer";
@@ -14,7 +14,7 @@ const StudyPage: React.FC = () => {
 
   const [isAnswerRevealed, setIsAnswerRevealed] = useState<boolean>(false);
 
-  const [vocabLevel, setVocabLevel] = useState(['5']);
+  const [vocabLevel, setVocabLevel] = useState(['5,4,3,2,1']);
   const [kanjiLevel, setKanjiLevel] = useState(['12']);
 
   const [vocabList, setVocabList] = useState<Array<IWord>>([]);
@@ -25,6 +25,7 @@ const StudyPage: React.FC = () => {
     word: {_id: "...", word: "...", reading: "...", translation: "...", level: 1}, 
     sentence: "..."
   });
+  let nextQuestion = useRef<IQuestion>();
 
   useEffect(() => {
     retrieveKanjiList();
@@ -34,21 +35,28 @@ const StudyPage: React.FC = () => {
   useEffect(() => {
     if(vocabList.length > 0 && kanjiList.length > 0)
     {
-      selectQuestion();
+      loadQuestion();
     }
   }, [vocabList])
 
   useEffect(() => {
     if(vocabList.length > 0 && kanjiList.length > 0)
     {
-      selectQuestion();
+      loadQuestion();
     }
   }, [kanjiList])
 
   useEffect(() => {
     if(isAnswerRevealed)
     {
-      selectQuestion();
+      loadQuestion();
+    }
+    else
+    {
+      if(typeof nextQuestion.current !== 'undefined')
+      {
+        changeQuestion();
+      }
     }
   }, [isAnswerRevealed])
 
@@ -73,20 +81,51 @@ const StudyPage: React.FC = () => {
     const res = await fetch(url);
     const data = await res.json();
 
+    console.log(data);
+
     return data;
   }
 
-  const selectQuestion = async () => {
-    //TODO: Fix issue where sometimes words cannot be found for the given kanji
-    const selectedKanji = kanjiList[Math.floor(Math.random() * kanjiList.length)];
-    
-    const availableWords = vocabList.filter(word => word.word.includes(selectedKanji.kanji));
-    const selectedWord = availableWords[Math.floor(Math.random() * availableWords.length)]
+  const loadQuestion = async () => {
+    let selectedKanji: IKanji;
+    let availableWords: IWord[];
+    let selectedWord: IWord;
+    let selectedSentence: string;
 
-    const selectedSentence = await retrieveSentences(selectedWord.word);
+    do {
+      selectedKanji = kanjiList[Math.floor(Math.random() * kanjiList.length)];
+
+      console.log(selectedKanji)
+      availableWords = vocabList.filter(word => word.word.includes(selectedKanji.kanji));
+      console.log(availableWords)
+      
+    } while(availableWords.length <= 0)
+    
+    do {
+      selectedWord = availableWords[Math.floor(Math.random() * availableWords.length)]
+      selectedSentence = await retrieveSentences(selectedWord.word);
+    } while(selectedSentence.length <= 0)
+
 
     const question: IQuestion = { kanji: selectedKanji, word: selectedWord, sentence: selectedSentence[0] };
-    setCurrentQuestion(question);
+
+    //TODO: fix this ugly
+    if(currentQuestion.sentence === "...")
+    {
+      setCurrentQuestion(question);
+      console.log("Next question set to ", question)
+      nextQuestion.current = question;
+    }
+    else
+    {
+      console.log("Next question set to ", question)
+      nextQuestion.current = question;
+    }
+  }
+
+  const changeQuestion = async () => {
+    console.log("Question changed to ", nextQuestion.current)
+    setCurrentQuestion(nextQuestion.current!);
   }
 
   return (

@@ -22,6 +22,7 @@ exports.getAllSentences = async (req, res, next) => {
   res.send(sentences);
 }
 
+//TODO: Also match for conjugated words
 exports.getSingleSentence = async (req, res, next) => {
   let sentences = [];
 
